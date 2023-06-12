@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    height: 146px;
+    background: rgba(234, 245, 243, 0.5);
+    border-top: 1px solid #E1EFED;
+    margin-top: 116px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vl{
+    width: 66px;
+    height: 0px;
+    border: 2px solid #E0EAEA;
+    transform: rotate(90deg);
+}
+.footer>img{
+    width: 153px;
+    height: 42.53px;
+}
+#span_box_footer, .copyright{
+    font-size: 16px;
+    font-weight: 500;
+    color: #9DA2AA;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 10px;
+}
+
+

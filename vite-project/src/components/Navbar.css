@@ -1,0 +1,31 @@
+.navbar, #span_box, .register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#span_box{
+    width: 33%;
+}
+#span_box>span:hover, a:hover{
+    color: #038477;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navbar{
+    font-family: "Inter";
+    margin-top: 40px;
+    font-size: 14px;
+}
+.register{
+    width: 20%;
+}
+.register>button{
+    width: 140px;
+    height: 41px;
+    border-radius: 25px;
+    background-color: #038477;
+    border: none;
+}
+button{
+    color: white;
+}

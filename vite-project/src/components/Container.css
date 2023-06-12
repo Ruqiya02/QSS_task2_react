@@ -1,0 +1,26 @@
+.container{
+    width: 235px;
+    height: 304px;
+    background: linear-gradient(180deg, #DBEAF8 0%, #E6EEF4 100%);
+    box-shadow: 0px 4px 4px rgba(181, 181, 181, 0.25);
+    border-radius: 18px;
+    text-align: center;
+    margin-left: 20px;
+}
+.container_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containers_area{
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 44px;
+    background: #103557;
+    border-radius: 25px;
+}
+.containers_area>button{
+    margin-top: 25px;
+}
